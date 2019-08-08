@@ -1,6 +1,6 @@
-##     HBase and Schema Design
+#     HBase and Schema Design
 
-#### Table Schema Rules Of Thumb
+## Table Schema Rules Of Thumb
 
 *In HBase tables --> multiple regions and these regions are served by Region Servers*
 

@@ -1,4 +1,4 @@
-##  Operations in HBase
+#  Operations in HBase
 
 *The four primary data model operations are **Get, Put, Scan, and Delete.** Operations are applied via Table instances*
 

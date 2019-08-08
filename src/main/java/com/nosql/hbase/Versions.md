@@ -1,4 +1,4 @@
-## Version in HBase
+# Version in HBase
 
 *A {row, column, version} tuple exactly specifies a cell in HBase*
 
@@ -9,7 +9,7 @@ While **rows and column keys** are expressed as **bytes**, the **version** is sp
     
 The HBase version dimension is stored in decreasing order, so that when reading from a store file, the most recent values are found first
 
-#### Specifying the Number of Versions to Store
+## Specifying the Number of Versions to Store
 
    Can be mentioned at the time of creation or can alter the table to mention how many version of each column needs to stored
    
@@ -17,7 +17,7 @@ The HBase version dimension is stored in decreasing order, so that when reading 
    
      alter ‘t1′, NAME => ‘f1′, VERSIONS => 5  --  keep a maximum of 5 versions of all columns in column family f1
      
- ### Versions and HBase Operations
+## Versions and HBase Operations
  
    **Get/Scan**
    

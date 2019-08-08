@@ -1,8 +1,8 @@
-## HBase Architectural Components
+# HBase Architectural Components
 
 *Three major components*
 
-#### Master Server
+## Master Server
   
    - HMaster is implementation of master server. It monitors all RegionServer instances in the cluster
    - HMaster is interface for all metadata changes - **Region assignment, DDL (create, delete tables) operations**
@@ -25,4 +25,4 @@
      * ColumnFamily (addColumn, modifyColumn, removeColumn)
      * Region (move, assign, unassign)
 
-#### RegionServer
+## RegionServer

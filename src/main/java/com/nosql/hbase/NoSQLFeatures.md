@@ -1,4 +1,4 @@
-## Typical NoSQL database features
+# Typical NoSQL database features
 
 * **Key and Value**
 
