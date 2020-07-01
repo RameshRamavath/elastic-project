@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/transaction-search/v1")
+@RequestMapping("/search/v1")
 
 public class ElasticController {
 
